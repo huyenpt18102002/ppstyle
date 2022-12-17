@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIỎ HÀNG</title>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <script src="https://kit.fontawesome.com/17d0ccc118.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="catergory.html">Nữ</a>
+             <ul class="sub-menu">
+                 <li><a href="">Hàng mới về</a></li>
+                 <li><a href="">Áo </a>
+                      <ul>
+                          <li><a href="">Áo sơ mi</a></li>
+                          <li><a href="">Áo thun</a></li>
+                          <li><a href="">Áo khoác</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="">Quần</a>
+                      <ul>
+                          <li><a href="">Quần dài </a></li>
+                          <li><a href="">Quần lửng</a></li>
+                          <li><a href="">Quần jeans</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="">Váy</a></li>
+             </ul></li>
+            <li><a href="">Nam</a>
+             <ul class="sub-menu">
+                 <li><a href="">Hàng mới về</a></li>
+                 <li><a href="">Áo </a>
+                      <ul>
+                          <li><a href="">Áo sơ mi</a></li>
+                          <li><a href="">Áo thun</a></li>
+                          <li><a href="">Áo vest</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="">Quần</a>
+                      <ul>
+                          <li><a href="">Quần âu </a></li>
+                          <li><a href="">Quần dài </a></li>
+                          <li><a href="">Quần jeans </a></li>
+                      </ul>
+                 </li>
+             </ul></li>
+            <li><a href="">Trẻ em</a>
+             <ul class="sub-menu">
+                 <li><a href="">Hàng mới về</a></li>
+                 <li><a href="">Bé gái </a>
+                      <ul>
+                          <li><a href="">Áo bé gái</a></li>
+                          <li><a href="">Quần bé gái</a></li>
+                          <li><a href="">Váy</a></li>
+                      </ul>
+                 </li>
+                 <li><a href="">Bé trai</a>
+                      <ul>
+                          <li><a href="">Áo bé trai </a></li>
+                          <li><a href="">Quần bé trai</a></li>
+                      </ul>
+                 </li>
+             </ul></li>
+            <li><a href="">Về chúng tôi</a></li>
+        </div>
+        <div class="other">
+         <li> <form method="get" action="">
+                 <input placeholder="Tìm kiếm" type="text"name="search" > 
+                 <button style="cursor: pointer; background-color: white; border: none"><i style="left:170px;" class="fas fa-search"></i></button>
+                 </form>
+             </li>
+            <li><a class="fa fa-shopping-bag" href=""></a></li>
+            <li><a class="fa fa-user" href=""></a></li>
+        </div>
+    </header> 
+
+    
+<!--------------------------------------payment----------------------------------->
+<section class="payment">
+    <div class="container">
+        <div class="payment-top-wrap">
+            <div class="payment-top">
+               <div class="payment-top-cart payment-top-item">
+                 <i class="fas fa-shopping-cart"></i>
+               </div>
+               <div class="payment-top-address payment-top-item">
+                 <i class="fas fa-map-marker-alt"></i>
+               </div>
+               <div class="payment-top-payment payment-top-item">
+                 <i class="fas fa-money-check-alt"></i>
+               </div>
+             </div>
+         </div>
+    </div>
+    <div class="container">
+        <div class="payment-content row">
+            <div class="payment-content-left">
+                <div class="payment-content-left-method-delivery">
+                    <p style="font-weight: bold;">Phương thức giao hàng</p>
+                    <div class="payment-content-left-method-delivery-item">
+                        <input checked type="radio">
+                        <label for="">Giao hàng chuyển phát nhanh</label>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="payment-content-left-method-payment">
+                    <p style="font-weight: bold;">Phương thức thanh toán</p>
+                    <p>Mọi giao dịch đều được bảo mật và mã hóa. Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại.</p>
+                    <br>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/visa.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input checked name="method-payment" type="radio">
+                        <label for="">Thanh toán bằng thẻ ATM(OnePay)</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/payment.png" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thanh toán Momo</label>
+                    </div>
+                    <div class="payment-content-left-method-payment-item-img">
+                        <img src="image/momo.jpg" alt="">
+                    </div>
+                    <div class="payment-content-left-method-payment-item">
+                        <input name="method-payment" type="radio">
+                        <label for="">Thu tiền tận nơi</label>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right">
+                <div class="payment-content-right-thanhtoan">
+                    <table>
+                        <tr>
+                            <th>Tên sản phẩm</th>
+                            <th>Số lượng</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>Áo thun Poem </td>
+                        </tr>
+                        <tr>
+                            <td>M/Trắng</td>
+                            <td style="padding-left: 70px;">1</td>
+                            <td>450.000<sup>đ</sup></td>
+                        </tr>
+                        <tr>
+                            <td>650.000<sup>đ</sup></p></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Tổng tiền hàng<p style="font-weight: bold;">(650.000<sup>đ</sup>)</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Tạm tính</td>
+                            <td>650.000<sup>đ</sup></td>
+                        </tr>  
+                        <tr>
+                            <td colspan="2">Giao hàng chuyển phát nhanh-Chuyển phát nhanh</td>
+                            <td>20.000<sup>đ</sup></td>
+                        </tr> 
+                        <tr>
+                            <td colspan="2" style="font-weight: bold;">Tiền thanh toán</td>
+                            <td style="font-weight: bold;">670.000<sup>đ</sup></td>
+                        </tr>  
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="payment-content-right-payment">
+            <button>TIẾP TỤC THANH TOÁN</button>
+        </div>
+    </div>
+</section>
+
+   <!--------------------Footer----------------------->
+   <footer>
+    <div class="footer-top">
+        <li><a href=""><img src="image/img-congthuong.png" alt=""></a></li>
+        <li><a href="">Liên hệ</a></li>
+        <li><a href="">Tuyển dụng</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li>
+            <a href="" class="fab fa-facebook"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-youtube"></a>
+        </li>
+    </div>
+        <div class="footer-center">
+            <p>Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650 <br>
+            <b> Địa chỉ đăng ký:</b> Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam <br>
+             <b>Số điện thoại:</b> 0243 205 2222
+            </p>   
+        </div>
+    <div class="footer-bottom">
+        ©PPStyle All rights reserved
+    </div>
+    </footer>
+</body>
+<link rel="stylesheet" href="js/script.js" class="js">
+</html>
